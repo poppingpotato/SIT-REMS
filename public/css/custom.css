@@ -1,0 +1,123 @@
+body{
+    background-color: #dddde6 !important; 
+}
+
+.content{
+  padding: 1.5rem 2.5rem;
+  width: 100%;
+  flex-grow: 1;
+}
+
+/* Logo */
+#UB-logo{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title-icon{
+  border-radius: 50% !important;
+}
+/* /Logo */
+
+/* sidebar */
+#wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+.menu-icon{
+  display: inline-block;
+  font-size: inherit;
+  width: 1rem;
+  text-align: center; 
+  margin-right: 1rem;
+}
+
+#menu-toggle{
+  color: #636b6f;
+}
+
+.list-group-item{
+  margin:auto; 
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+/* sidebar */
+
+/* navbar */
+#navbarDropdown{
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.6;
+  transition: 0.1s;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#navbarDropdown:hover{
+  opacity: 1;
+}
+
+/* -navbar */
+
+/* login/ register links */
+.links > a{
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*login/register links  */
+
+/* items  */
+/* card */
+.grid-margin{
+  margin-bottom: 1.875rem;
+}
+/* card */
+/* items */
